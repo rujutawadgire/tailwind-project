@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust.Tours</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body id="#top">
+
+
+    <!-- NAVBAR -->
+    <header class=" fixed bg-white shadow-md fixed w-full z-50 ">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+            <div class="flex items-center ">
+                <h1 class="text-xl font-semibold"><a href="index.html">Wanderlust</a></h1>
+            </div>
+
+            <nav class="hidden md:flex space-x-8 text-gray-700">
+                <a href="#destiny" target="_blank" class="hover:text-teal-600">Destinations</a>
+                <a href="page2.html" target="_blank" class="hover:text-teal-600">Tours</a>
+                <a href="page3.html" target="_blank" class="hover:text-teal-600">About</a>
+                <a href="page4.html" target="_blank" class="hover:text-teal-600">Travel Blog</a>
+                <a href="page5.html" target="_blank" class="hover:text-teal-600">Contact</a>
+            </nav>
+
+            <div class="hidden md:block">
+                <button class="bg-teal-600 text-white px-5 py-2 rounded-lg hover:bg-teal-700">
+                    Book Now
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- TOURS SECTION -->
+    <section class="h-[400px] bg-gradient-to-r from-teal-600 to-teal-800 py-20 flex items-center">
+
+        <div class="max-w-4xl mx-auto px-6 text-center text-white">
+
+            <h1 class="text-3xl md:text-5xl font-bold">
+                Tours
+            </h1>
+
+            <p class="mt-4 text-lg text-teal-100">
+                Customisable tours, Unforgettable Experiences and much more...
+            </p>
+
+        </div>
+
+    </section>
+    <section class="py-16 bg-gray-100">
+
+        <div class="flex flex-col justify-center items-center max-w-7xl md-text-center mx-auto px-6 py-10 text-center">
+            <h5 class="bg-teal-100 rounded-full text-center text-teal-600 text-sm mb-4 px-4 py-2">Featured Tours
+            </h5>
+            <h2 class="text-5xl md:text-4xl font-bold text-gray-900">Unforgettable Experiences</h2>
+            <h3 class="text-gray-500 mt-4 max-w-2xl mx-auto text-sm ">Handpicked tours designed to immerse you in local
+                culture and natural beauty.</h3>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                <div class="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden">
+
+                    <div class="relative">
+                        <img src="./assets/10007.jpeg" class="w-full h-52 object-cover">
+
+                        <span class="absolute top-3 left-3 bg-yellow-400 text-xs px-3 py-1 rounded-full font-medium">
+                            Featured
+                        </span>
+
+                        <span class="absolute top-3 right-3 bg-red-500 text-white text-xs px-3 py-1 rounded-full">
+                            Save $300
+                        </span>
+                    </div>
+
+                    <div class="p-5">
+
+                        <p class="text-sm text-gray-500"><i class="fa-solid fa-map-pin" style="color: red;"></i> Bali,
+                            Indonesia</p>
+
+                        <h3 class="font-semibold text-lg mt-1">Bali Cultural Journey</h3>
+
+                        <div class="flex items-center gap-4 text-sm text-gray-500 mt-2">
+                            <span><i class="fa-solid fa-clock"></i> 7 days</span>
+                            <span><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i> 4.9 (128)</span>
+                        </div>
+
+                        <div class="flex flex-wrap gap-2 mt-3">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full text-xs">Temple visits</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full text-xs">Rice terraces</span>
+                        </div>
+
+                        <div class="border-t my-4"></div>
+
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-sm text-gray-500">From</p>
+                                <p class="text-xl font-bold text-teal-600">
+                                    $1299 <span class="text-gray-400 text-sm line-through">$1599</span>
+                                </p>
+                            </div>
+
+                            <button class="bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700">
+                                View Tour
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden">
+                    <div class="relative">
+                        <img src="./assets/10008.jpeg" class="w-full h-52 object-cover">
+                        <span class="absolute top-3 left-3 bg-yellow-400 text-xs px-3 py-1 rounded-full">Featured</span>
+                        <span class="absolute top-3 right-3 bg-red-500 text-white text-xs px-3 py-1 rounded-full">Save
+                            $300</span>
+                    </div>
+
+                    <div class="p-5">
+                        <p class="text-sm text-gray-500"><i class="fa-solid fa-map-pin" style="color: red;"></i> Greece
+                        </p>
+                        <h3 class="font-semibold text-lg mt-1">Greek Island Hopping</h3>
+
+                        <div class="flex gap-4 text-sm text-gray-500 mt-2">
+                            <span><i class="fa-solid fa-clock"></i> 10 days</span>
+                            <span><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i> 4.8 (96)</span>
+                        </div>
+
+                        <div class="flex flex-wrap gap-2 mt-3">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full text-xs">Santorini sunset</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full text-xs">Mykonos beaches</span>
+                        </div>
+
+                        <div class="border-t my-4"></div>
+
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <p class="text-sm text-gray-500">From</p>
+                                <p class="text-xl font-bold text-teal-600">
+                                    $2199 <span class="line-through text-gray-400 text-sm">$2499</span>
+                                </p>
+                            </div>
+
+                            <button class="bg-teal-600 text-white px-4 py-2 rounded-lg">View Tour</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden">
+                    <div class="relative">
+                        <img src="./assets/10009.jpeg" class="w-full h-52 object-cover">
+                    </div>
+
+                    <div class="p-5">
+                        <p class="text-sm text-gray-500"><i class="fa-solid fa-map-pin" style="color: red;"></i> Peru
+                        </p>
+                        <h3 class="font-semibold text-lg mt-1">Peru Discovery</h3>
+
+                        <div class="flex gap-4 text-sm text-gray-500 mt-2">
+                            <span><i class="fa-solid fa-clock"></i> 8 days</span>
+                            <span><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i> 4.9 (74)</span>
+                        </div>
+
+                        <div class="flex flex-wrap gap-2 mt-3">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full text-xs">Machu Picchu</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full text-xs">Sacred Valley</span>
+                        </div>
+
+                        <div class="border-t my-4"></div>
+
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <p class="text-sm text-gray-500">From</p>
+                                <p class="text-xl font-bold text-teal-600">$1899</p>
+                            </div>
+
+                            <button class="bg-teal-600 text-white px-4 py-2 rounded-lg">View Tour</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden">
+                    <div class="relative">
+                        <img src="./assets/10010.jpeg" class="w-full h-52 object-cover">
+                        <span class="absolute top-3 left-3 bg-yellow-400 text-xs px-3 py-1 rounded-full">Featured</span>
+                        <span class="absolute top-3 right-3 bg-red-500 text-white text-xs px-3 py-1 rounded-full">Save
+                            $500</span>
+                    </div>
+
+                    <div class="p-5">
+                        <p class="text-sm text-gray-500"><i class="fa-solid fa-map-pin" style="color: red;"></i> Japan
+                        </p>
+                        <h3 class="font-semibold text-lg mt-1">Japan Explorer</h3>
+
+                        <div class="flex gap-4 text-sm text-gray-500 mt-2">
+                            <span><i class="fa-solid fa-clock"></i> 12 days</span>
+                            <span><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i> 4.7 (156)</span>
+                        </div>
+
+                        <div class="flex flex-wrap gap-2 mt-3">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full text-xs">Tokyo nightlife</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full text-xs">Kyoto temples</span>
+                        </div>
+
+                        <div class="border-t my-4"></div>
+
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <p class="text-sm text-gray-500">From</p>
+                                <p class="text-xl font-bold text-teal-600">
+                                    $3499 <span class="line-through text-gray-400 text-sm">$3999</span>
+                                </p>
+                            </div>
+
+                            <button class="bg-teal-600 text-white px-4 py-2 rounded-lg">View Tour</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-10">
+                <button class="border px-6 py-3 rounded-lg hover:bg-gray-200 transition">
+                    View all tour packages →
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="bg-[#0B1A2B] text-gray-300 pt-16 pb-8">
+
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+
+
+            <div class="lg:col-span-2">
+                <h2 class="text-2xl font-bold text-white">Wanderlust</h2>
+                <p class="mt-4 text-gray-400 max-w-sm">
+                    Discover extraordinary destinations and create unforgettable memories with our curated travel
+                    experiences
+                </p>
+
+
+                <div class="flex gap-4 mt-6">
+                    <div class="bg-gray-800 p-3 rounded-lg"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="bg-gray-800 p-3 rounded-lg"><i class="fa-brands fa-facebook"></i></div>
+                    <div class="bg-gray-800 p-3 rounded-lg"><i class="fa-brands fa-x-twitter"></i></div>
+                    <div class="bg-gray-800 p-3 rounded-lg"><i class="fa-brands fa-youtube"></i></div>
+                </div>
+            </div>
+
+
+            <div>
+                <h3 class="text-white font-semibold mb-4">DESTINATIONS</h3>
+                <ul class="space-y-2">
+                    <li>Bali</li>
+                    <li>Greece</li>
+                    <li>Japan</li>
+                    <li>Peru</li>
+                </ul>
+            </div>
+
+
+            <div>
+                <h3 class="text-white font-semibold mb-4">COMPANY</h3>
+                <ul class="space-y-2">
+                    <li>About Us</li>
+                    <li>Our Team</li>
+                    <li>Careers</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+
+            <div>
+                <h3 class="text-white font-semibold mb-4">SUPPORT</h3>
+                <ul class="space-y-2">
+                    <li>Help Center</li>
+                    <li>Travel Insurance</li>
+                    <li>Cancellation Policy</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+
+
+            <div class="lg:col-span-2">
+                <h3 class="text-white font-semibold mb-4">TRAVEL INSPIRATION</h3>
+                <p class="text-gray-400 mb-4">
+                    Subscribe for exclusive deals, travel tips, and destination guides.
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <input type="email" placeholder="Enter your email"
+                        class="flex-1 px-4 py-3 rounded-lg bg-gray-800 border border-gray-700 text-white focus:ring-2 focus:ring-teal-500">
+
+                    <button class="bg-teal-600 px-5 py-3 rounded-lg hover:bg-teal-700">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div
+            class="max-w-7xl mx-auto px-6 mt-12 pt-6 border-t border-gray-700 flex flex-col md:flex-row justify-between text-sm text-gray-400">
+            <p>© 2026 Wanderlust. All rights reserved.</p>
+            <div class="flex gap-6 mt-4 md:mt-0">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- WHATSAPP BUTTON -->
+    <a href="https://wa.me/917559418276?text=Hello...I want to book a tour" target="_blank"
+        class="fixed bottom-20 right-5 z-50 bg-green-500 hover:bg-green-600 text-white w-12 h-12 mb-5 flex items-center justify-center rounded-full shadow-lg transition duration-300">
+
+        <i class="fa-brands fa-whatsapp text-2xl"></i>
+
+    </a>
+
+    <!-- back to top -->
+    <a href="#top"
+        class="fixed bottom-5 right-5 z-50 bg-teal-600 hover:bg-teal-700 text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center transition hover:scale-110 animate-bounce">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </a>
+
+</body>
+
+</html>

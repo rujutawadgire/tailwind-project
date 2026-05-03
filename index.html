@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+
+
+</head>
+
+<body id="#top" class="bg-gray-100">
+
+    <!-- NAVBAR -->
+    <header class=" fixed bg-white shadow-md fixed w-full z-50 ">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+            <div class="flex items-center ">
+                <h1 class="text-xl font-semibold"><a href="index.html">Wanderlust</a></h1>
+            </div>
+
+            <nav class="hidden md:flex space-x-8 text-gray-700">
+                <a href="#destiny" class="hover:text-teal-600">Destinations</a>
+                <a href="page2.html" target="_blank" class="hover:text-teal-600">Tours</a>
+                <a href="page3.html" target="_blank" class="hover:text-teal-600">About</a>
+                <a href="page4.html" target="_blank" class="hover:text-teal-600">Travel Blog</a>
+                <a href="page5.html" target="_blank" class="hover:text-teal-600">Contact</a>
+            </nav>
+
+            <div class="hidden md:block">
+                <button class="bg-teal-600 text-white px-5 py-2 rounded-lg hover:bg-teal-700">
+                    <a href="#join"> Book Now </a>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="  relative h-screen flex items-center justify-center">
+
+        <img src="./assets/10001.jpeg" class="absolute inset-0 w-full h-full">
+        <div class="absolute inset-0 bg-black/50"></div>
+
+
+        <div class="relative max-w-7xl mx-auto px-6 text-center md:text-left">
+
+            <div class="inline-block bg-teal-500/20 text-teal-300 px-4 py-2 rounded-full mb-6 text-sm">
+                Top-Rated Travel Agency 2025
+            </div>
+
+            <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight">
+                Discover Your Next <br>
+                <span
+                    class="text-400 bg-gradient-to-r from-teal-600 via-green-500 to-yellow-400 bg-clip-text text-transparent">Adventure</span>
+            </h1>
+            <p class="text-gray-200 mt-6 max-w-xl">
+                Explore breathtaking destinations around the world with our expertly curated tours.
+                From ancient wonders to tropical paradises, your dream vacation awaits.
+            </p>
+            <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+
+                <button class="bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700">
+                    Explore Tours
+                </button>
+
+                <button class="border border-gray-300 text-white px-6 py-3 rounded-lg hover:bg-white hover:text-black">
+                    Watch Our Story
+                </button>
+
+            </div>
+
+            <div class="relative top-10 w-full">
+                <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-10 text-white">
+
+                    <div>
+                        <h2 class="text-3xl font-bold">50+</h2>
+                        <p class="text-gray-300">Destinations</p>
+                    </div>
+
+                    <div>
+                        <h2 class="text-3xl font-bold">200+</h2>
+                        <p class="text-gray-300">Tour Packages</p>
+                    </div>
+
+                    <div>
+                        <h2 class="text-3xl font-bold">15k+</h2>
+                        <p class="text-gray-300">Happy Travelers</p>
+                    </div>
+
+                    <div>
+                        <h2 class="text-3xl font-bold">98%</h2>
+                        <p class="text-gray-300">Satisfaction Rate</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEARCH SECTION -->
+    <section class="h-full w-full py-10">
+
+        <div class="max-w-7xl mx-auto bg-white rounded-2xl shadow-xl p-6 md:p-8">
+
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-4 items-end">
+
+                <div>
+                    <label class="text-sm text-gray-600">Destination</label>
+                    <div class="relative mt-2">
+                        <input type="text" placeholder="Where to?"
+                            class="w-full border border-gray-300 rounded-xl px-10 py-3 focus:outline-none focus:ring-2 focus:ring-teal-500">
+
+                        <span class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></span>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="text-sm text-gray-600">Check In</label>
+                    <div class="relative mt-2">
+                        <input type="date"
+                            class="w-full border border-gray-300 rounded-xl px-10 py-3 focus:outline-none focus:ring-2 focus:ring-teal-500">
+
+                        <span class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></span>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="text-sm text-gray-600">Check Out</label>
+                    <div class="relative mt-2">
+                        <input type="date"
+                            class="w-full border border-gray-300 rounded-xl px-10 py-3 focus:outline-none focus:ring-2 focus:ring-teal-500">
+
+                        <span class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></span>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="text-sm text-gray-600">Travelers</label>
+                    <div class="relative mt-2">
+                        <select
+                            class="w-full border border-gray-300 rounded-xl px-10 py-3 focus:outline-none focus:ring-2 focus:ring-teal-500">
+                            <option>1 Traveler</option>
+                            <option>2 Travelers</option>
+                            <option>3 Travelers</option>
+                        </select>
+
+                        <span class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></span>
+                    </div>
+                </div>
+
+                <div>
+                    <button class="w-full bg-teal-600 text-white py-3 rounded-xl hover:bg-teal-700 transition">
+                        Search Tours
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- DESTINATION SECTIONS  -->
+    <section class="h-screen w-full" id="destiny">
+        <div class="flex flex-col justify-center items-center max-w-7xl md-text-center mx-auto px-6 py-10 text-center">
+            <h5 class="bg-teal-100 rounded-full text-center text-teal-600 text-sm mb-4 px-4 py-2">Popular Destinations
+            </h5>
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Explore the World</h2>
+            <h3 class="text-gray-500 mt-4 max-w-2xl mx-auto text-sm ">From sun-soaked beaches to historic cities,
+                discover our most sought-after destinations.</h3>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- CARD 1 -->
+                <div class="relative rounded-2xl overflow-hidden group">
+                    <img src="./assets/10002.jpeg"
+                        class="w-full h-[280px] sm:h-[320px] lg:h-[350px] object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+
+                    <div class="absolute bottom-5 left-5 right-5 text-white">
+
+                        <div class="flex items-center text-sm mb-1"> <i class="fa-solid fa-star"
+                                style="color: rgb(255, 212, 59);"></i> <span class="ml-2">4.9 . 24 tours</span>
+                        </div>
+
+                        <h3 class="text-lg sm:text-xl font-semibold">
+                            Bali, Indonesia
+                        </h3>
+
+                        <p class="text-sm text-gray-200 mt-1">
+                            Tropical paradise with stunning temples and beaches
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <!-- CARD 2 -->
+                <div class="relative rounded-2xl overflow-hidden group">
+                    <img src="./assets/10003.jpeg"
+                        class="w-full h-[280px] sm:h-[320px] lg:h-[350px] object-cover transition duration-500 group-hover:scale-110">
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+
+                    <div class="absolute bottom-5 left-5 right-5 text-white">
+
+                        <div class="flex items-center text-sm mb-1"><i class="fa-solid fa-star"
+                                style="color: rgb(255, 212, 59);"></i> <span class="ml-2">4.8 • 18 tours</span>
+                        </div>
+
+                        <h3 class="text-lg sm:text-xl font-semibold">
+                            Santorini, Greece
+                        </h3>
+
+                        <p class="text-sm text-gray-200 mt-1">
+                            Iconic white buildings and breathtaking sunsets
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <!-- CARD 3 -->
+                <div class="relative rounded-2xl overflow-hidden group">
+                    <img src="./assets/10004.jpeg"
+                        class="w-full h-[280px] sm:h-[320px] lg:h-[350px] object-cover transition duration-500 group-hover:scale-110">
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+
+                    <div class="absolute bottom-5 left-5 right-5 text-white">
+
+                        <div class="flex items-center text-sm mb-1"><i class="fa-solid fa-star"
+                                style="color: rgb(255, 212, 59);"></i> <span class="ml-2">4.9 • 12 tours</span>
+                        </div>
+
+                        <h3 class="text-lg sm:text-xl font-semibold">
+                            Machu Picchu, Peru
+                        </h3>
+
+                        <p class="text-sm text-gray-200 mt-1">
+                            Ancient Incan citadel high in the Andes Mountains
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="max-w-7xl mx-auto my-10 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+
+                <div class="relative rounded-2xl overflow-hidden group">
+                    <img src="./assets/10005.jpeg"
+                        class="w-full h-[280px] sm:h-[320px] lg:h-[350px] object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+
+                    <div class="absolute bottom-5 left-5 right-5 text-white">
+
+                        <div class="flex items-center text-sm mb-1"> <i class="fa-solid fa-star"
+                                style="color: rgb(255, 212, 59);"></i> <span class="ml-2">4.7 . 32 tours</span>
+                        </div>
+
+                        <h3 class="text-lg sm:text-xl font-semibold">
+                            Tokyo, Japan
+                        </h3>
+
+                        <p class="text-sm text-gray-200 mt-1">
+                            Where ancient tradition meets cutting edge modernity
+                        </p>
+
+                    </div>
+                </div>
+
+
+
+                <div class="relative rounded-2xl overflow-hidden group">
+                    <img src="./assets/10006.jpeg"
+                        class="w-full h-[280px] sm:h-[320px] lg:h-[350px] object-cover transition duration-500 group-hover:scale-110">
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+
+                    <div class="absolute bottom-5 left-5 right-5 text-white">
+
+                        <div class="flex items-center text-sm mb-1"><i class="fa-solid fa-star"
+                                style="color: rgb(255, 212, 59);"></i> <span class="ml-2">4.9 . 15 tours</span>
+                        </div>
+
+                        <h3 class="text-lg sm:text-xl font-semibold">
+                            Maldives
+                        </h3>
+
+                        <p class="text-sm text-gray-200 mt-1">
+                            Crystal clear water and luxury overwater villas
+                        </p>
+
+                    </div>
+                </div>
+
+
+
+                <div class="relative rounded-2xl overflow-hidden group">
+                    <img src="./assets/10007.jpeg"
+                        class="w-full h-[280px] sm:h-[320px] lg:h-[350px] object-cover transition duration-500 group-hover:scale-110">
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+
+                    <div class="absolute bottom-5 left-5 right-5 text-white">
+
+                        <div class="flex items-center text-sm mb-1"><i class="fa-solid fa-star"
+                                style="color: rgb(255, 212, 59);"></i> <span class="ml-2">4.8 . 20 tours</span>
+                        </div>
+
+                        <h3 class="text-lg sm:text-xl font-semibold">
+                            Swiss Alps
+                        </h3>
+
+                        <p class="text-sm text-gray-200 mt-1">
+                            Majestic peaks and world-class skiing adventures
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="h-screen w-full relative py-10" id="join">
+            <img src="./assets/10257.jpeg" alt="" class="absolute inset-0 w-full h-full object-cover">
+
+            <div class="absolute inset-0 bg-teal-900/80"></div>
+
+            <div class="relative max-w-4xl mx-auto px-6 py-20 text-center text-white">
+
+
+                <h2 class="text-3xl md:text-5xl font-bold leading-tight">
+                    Ready for Your Next Adventure?
+                </h2>
+
+
+                <p class="mt-6 text-gray-200 max-w-2xl mx-auto">
+                    Join thousands of travelers who have discovered the world with Wanderlust.
+                    Your journey of a lifetime starts here.
+                </p>
+
+
+                <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+
+                    <button
+                        class="bg-white text-teal-700 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition">
+                        Start Planning →
+                    </button>
+
+                    <button
+                        class="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-teal-700 transition">
+                        Contact Us
+                    </button>
+
+                </div>
+
+                <p class="mt-10 text-sm text-gray-300">
+                    Subscribe to get exclusive travel deals and inspiration
+                </p>
+                <div class="mt-4 flex flex-col sm:flex-row gap-3 justify-center max-w-xl mx-auto">
+
+                    <input type="email" placeholder="Enter your email"
+                        class="flex-1 px-4 py-3 rounded-lg bg-white/10 border border-white/30 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+
+                    <button class="bg-yellow-500 text-white px-6 py-3 rounded-lg hover:bg-yellow-600 transition">
+                        Subscribe
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <footer class="bg-[#0B1A2B] text-gray-300 pt-16 pb-8">
+
+            <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+
+
+                <div class="lg:col-span-2">
+                    <h2 class="text-2xl font-bold text-white">Wanderlust</h2>
+                    <p class="mt-4 text-gray-400 max-w-sm">
+                        Discover extraordinary destinations and create unforgettable memories with our curated travel
+                        experiences
+                    </p>
+
+
+                    <div class="flex gap-4 mt-6">
+                        <div class="bg-gray-800 p-3 rounded-lg"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="bg-gray-800 p-3 rounded-lg"><i class="fa-brands fa-facebook"></i></div>
+                        <div class="bg-gray-800 p-3 rounded-lg"><i class="fa-brands fa-x-twitter"></i></div>
+                        <div class="bg-gray-800 p-3 rounded-lg"><i class="fa-brands fa-youtube"></i></div>
+                    </div>
+                </div>
+
+
+                <div>
+                    <h3 class="text-white font-semibold mb-4">DESTINATIONS</h3>
+                    <ul class="space-y-2">
+                        <li>Bali</li>
+                        <li>Greece</li>
+                        <li>Japan</li>
+                        <li>Peru</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-4">COMPANY</h3>
+                    <ul class="space-y-2">
+                        <li>About Us</li>
+                        <li>Our Team</li>
+                        <li>Careers</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-4">SUPPORT</h3>
+                    <ul class="space-y-2">
+                        <li>Help Center</li>
+                        <li>Travel Insurance</li>
+                        <li>Cancellation Policy</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+
+
+                <div class="lg:col-span-2">
+                    <h3 class="text-white font-semibold mb-4">TRAVEL INSPIRATION</h3>
+                    <p class="text-gray-400 mb-4">
+                        Subscribe for exclusive deals, travel tips, and destination guides.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <input type="email" placeholder="Enter your email"
+                            class="flex-1 px-4 py-3 rounded-lg bg-gray-800 border border-gray-700 text-white focus:ring-2 focus:ring-teal-500">
+
+                        <button class="bg-teal-600 px-5 py-3 rounded-lg hover:bg-teal-700">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div
+                class="max-w-7xl mx-auto px-6 mt-12 pt-6 border-t border-gray-700 flex flex-col md:flex-row justify-between text-sm text-gray-400">
+                <p>© 2026 Wanderlust. All rights reserved.</p>
+                <div class="flex gap-6 mt-4 md:mt-0">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+
+        </footer>
+    </section>
+
+    <!-- WHATSAPP BUTTON -->
+    <a href="https://wa.me/917559418276?text=Hello...I want to book a tour" target="_blank"
+        class="fixed bottom-20 right-5 z-50 bg-green-500 hover:bg-green-600 text-white w-12 h-12 mb-5 flex items-center justify-center rounded-full shadow-lg transition duration-300">
+
+        <i class="fa-brands fa-whatsapp text-2xl"></i>
+
+    </a>
+
+    <!-- back to top -->
+    <a href="#top"
+        class="fixed bottom-5 right-5 z-50 bg-teal-600 hover:bg-teal-700 text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center transition hover:scale-110 animate-bounce">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </a>
+</body>
+
+</html>
