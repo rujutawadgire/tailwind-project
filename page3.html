@@ -15,6 +15,10 @@
     <!-- icon  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 
     <style>
         body {
@@ -34,10 +38,10 @@
 
             <nav class=" md:flex space-x-8 text-gray-700">
                 <a href="#destiny" class="hover:text-teal-600">Destinations</a>
-                <a href="page2.html" target="_blank" class="hover:text-teal-600">Tours</a>
-                <a href="page3.html" target="_blank" class="hover:text-teal-600">About</a>
-                <a href="page4.html" target="_blank" class="hover:text-teal-600">Travel Blog</a>
-                <a href="page5.html" target="_blank" class="hover:text-teal-600">Contact</a>
+                <a href="page2.html" class="hover:text-teal-600">Tours</a>
+                <a href="page3.html" class="hover:text-teal-600">About</a>
+                <a href="page4.html" class="hover:text-teal-600">Travel Blog</a>
+                <a href="page5.html" class="hover:text-teal-600">Contact</a>
             </nav>
 
             <div class=" md:block">
@@ -51,7 +55,7 @@
 
     <section class="h-[400px] bg-gradient-to-r from-teal-600 to-teal-800 py-20 flex items-center">
 
-        <div class="max-w-4xl mx-auto px-6 text-center text-white">
+        <div data-aos="zoom-in" data-aos-duration="1500" class="max-w-4xl mx-auto px-6 text-center text-white">
 
             <h1 class="text-3xl md:text-5xl font-bold">
                 About Us
@@ -68,7 +72,8 @@
     <!-- ABOUT SECTION -->
     <section class="py-16 bg-gray-100">
 
-        <div class="flex flex-col justify-center items-center max-w-7xl md-text-center mx-auto px-6 py-10 text-center">
+        <div data-aos="fade-down" data-aos-duration="1500"
+            class="flex flex-col justify-center items-center max-w-7xl md-text-center mx-auto px-6 py-10 text-center">
             <h5 class="bg-teal-100 rounded-full text-center text-teal-600 text-sm mb-4 px-4 py-2">Why Choose Us
             </h5>
             <h2 class="text-5xl md:text-4xl font-bold text-gray-900">Travel with Confidence </h2>
@@ -81,7 +86,8 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
 
-                <div class="bg-white rounded-2xl shadow p-8 hover:shadow-lg transition">
+                <div data-aos="zoom-in-left" data-aos-duration="1500"
+                    class="bg-white rounded-2xl shadow p-8 hover:shadow-lg transition">
 
                     <div
                         class="w-14 h-14 flex items-center justify-center bg-teal-100 rounded-xl mb-6 text-teal-600 text-2xl">
@@ -101,7 +107,8 @@
 
 
                 <!-- CARD -->
-                <div class="bg-white rounded-2xl shadow p-8 hover:shadow-lg transition">
+                <div data-aos="zoom-in" data-aos-duration="1500"
+                    class="bg-white rounded-2xl shadow p-8 hover:shadow-lg transition">
                     <div
                         class="w-14 h-14 flex items-center justify-center bg-teal-100 rounded-xl mb-6 text-teal-600 text-2xl">
                         <i class="fa-solid fa-users" style="color: rgb(99, 230, 190);"></i>
@@ -119,7 +126,8 @@
 
 
                 <!-- CARD -->
-                <div class="bg-white rounded-2xl shadow p-8 hover:shadow-lg transition">
+                <div data-aos="zoom-in-right" data-aos-duration="1500"
+                    class="bg-white rounded-2xl shadow p-8 hover:shadow-lg transition">
                     <div
                         class="w-14 h-14 flex items-center justify-center bg-teal-100 rounded-xl mb-6 text-teal-600 text-2xl">
                         <i class="fa-regular fa-star" style="color: rgb(99, 230, 190);"></i>
@@ -136,7 +144,8 @@
 
 
                 <!-- CARD -->
-                <div class="bg-white rounded-2xl shadow p-8 hover:shadow-lg transition">
+                <div data-aos="zoom-in-left" data-aos-duration="1500"
+                    class="bg-white rounded-2xl shadow p-8 hover:shadow-lg transition">
                     <div
                         class="w-14 h-14 flex items-center justify-center bg-teal-100 rounded-xl mb-6 text-teal-600 text-2xl">
                         <i class="fa-solid fa-sack-dollar" style="color: rgb(99, 230, 190);"></i>
@@ -153,7 +162,8 @@
 
 
                 <!-- CARD -->
-                <div class="bg-white rounded-2xl shadow p-8 hover:shadow-lg transition">
+                <div data-aos="zoom-in" data-aos-duration="1500"
+                    class="bg-white rounded-2xl shadow p-8 hover:shadow-lg transition">
                     <div
                         class="w-14 h-14 flex items-center justify-center bg-teal-100 rounded-xl mb-6 text-teal-600 text-2xl">
                         <i class="fa-regular fa-calendar" style="color: rgb(99, 230, 190);"></i>
@@ -170,7 +180,8 @@
 
 
                 <!-- CARD -->
-                <div class="bg-white rounded-2xl shadow p-8 hover:shadow-lg transition">
+                <div data-aos="zoom-in-right" data-aos-duration="1500"
+                    class="bg-white rounded-2xl shadow p-8 hover:shadow-lg transition">
                     <div
                         class="w-14 h-14 flex items-center justify-center bg-teal-100 rounded-xl mb-6 text-teal-600 text-2xl">
                         <i class="fa-solid fa-life-ring" style="color: rgb(99, 230, 190);"></i>
@@ -195,7 +206,7 @@
 
         <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
 
-           
+
             <div class="lg:col-span-2">
                 <h2 class="text-2xl font-bold text-white">Wanderlust</h2>
                 <p class="mt-4 text-gray-400 max-w-sm">
@@ -203,7 +214,7 @@
                     experiences
                 </p>
 
-                
+
                 <div class="flex gap-4 mt-6">
                     <div class="bg-gray-800 p-3 rounded-lg"><i class="fa-brands fa-instagram"></i></div>
                     <div class="bg-gray-800 p-3 rounded-lg"><i class="fa-brands fa-facebook"></i></div>
@@ -212,7 +223,7 @@
                 </div>
             </div>
 
-           
+
             <div>
                 <h3 class="text-white font-semibold mb-4">DESTINATIONS</h3>
                 <ul class="space-y-2">
@@ -223,7 +234,7 @@
                 </ul>
             </div>
 
-           
+
             <div>
                 <h3 class="text-white font-semibold mb-4">COMPANY</h3>
                 <ul class="space-y-2">
@@ -234,7 +245,7 @@
                 </ul>
             </div>
 
-           
+
             <div>
                 <h3 class="text-white font-semibold mb-4">SUPPORT</h3>
                 <ul class="space-y-2">
@@ -245,7 +256,7 @@
                 </ul>
             </div>
 
-           
+
             <div class="lg:col-span-2">
                 <h3 class="text-white font-semibold mb-4">TRAVEL INSPIRATION</h3>
                 <p class="text-gray-400 mb-4">
@@ -264,7 +275,7 @@
 
         </div>
 
-       
+
         <div
             class="max-w-7xl mx-auto px-6 mt-12 pt-6 border-t border-gray-700 flex flex-col md:flex-row justify-between text-sm text-gray-400">
             <p>© 2026 Wanderlust. All rights reserved.</p>
@@ -277,7 +288,8 @@
     </footer>
 
     <!-- WHATSAPP BUTTON -->
-    <a href="https://wa.me/917559418276?text=Hello...I want to book a tour" target="_blank"
+    <a href="https://wa.me/917559418276?text=Hello...I want to book a tour" target="_blank" data-aos="fade-up"
+        data-aos-duration="500"
         class="fixed bottom-20 right-5 z-50 bg-green-500 hover:bg-green-600 text-white w-12 h-12 mb-5 flex items-center justify-center rounded-full shadow-lg transition duration-300">
 
         <i class="fa-brands fa-whatsapp text-2xl"></i>
@@ -285,12 +297,19 @@
     </a>
 
     <!-- back to top -->
-    <a href="#top"
+    <a href="#top" data-aos="fade-up" data-aos-duration="500"
         class="fixed bottom-5 right-5 z-50 bg-teal-600 hover:bg-teal-700 text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center transition hover:scale-110 animate-bounce">
 
         <i class="fa-solid fa-arrow-up"></i>
 
     </a>
+
+    <!-- aos  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

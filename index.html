@@ -15,6 +15,9 @@
     <!-- icon  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 
     <style>
@@ -38,10 +41,10 @@
 
             <nav class=" md:flex space-x-8 text-gray-700">
                 <a href="#destiny" class="hover:text-teal-600">Destinations</a>
-                <a href="page2.html" target="_blank" class="hover:text-teal-600">Tours</a>
-                <a href="page3.html" target="_blank" class="hover:text-teal-600">About</a>
-                <a href="page4.html" target="_blank" class="hover:text-teal-600">Travel Blog</a>
-                <a href="page5.html" target="_blank" class="hover:text-teal-600">Contact</a>
+                <a href="page2.html" class="hover:text-teal-600">Tours</a>
+                <a href="page3.html" class="hover:text-teal-600">About</a>
+                <a href="page4.html" class="hover:text-teal-600">Travel Blog</a>
+                <a href="page5.html" class="hover:text-teal-600">Contact</a>
             </nav>
 
             <div class=" md:block">
@@ -63,20 +66,23 @@
 
         <div class="relative max-w-7xl mx-auto px-6 text-center md:text-left">
 
-            <div class="inline-block bg-teal-500/20 text-teal-300 px-4 py-2 rounded-full mb-6 text-sm">
+            <div data-aos="fade-up" data-aos-duration="3000"
+                class="inline-block bg-teal-500/20 text-teal-300 px-4 py-2 rounded-full mb-6 text-sm">
                 Top-Rated Travel Agency 2025
             </div>
 
-            <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight">
+            <h1 data-aos="fade-up" data-aos-duration="3000"
+                class="text-4xl md:text-6xl font-bold text-white leading-tight">
                 Discover Your Next <br>
                 <span
                     class="text-400 bg-gradient-to-r from-teal-600 via-green-500 to-yellow-400 bg-clip-text text-transparent">Adventure</span>
             </h1>
-            <p class="text-gray-200 mt-6 max-w-xl">
+            <p data-aos="fade-up" data-aos-duration="3000" class="text-gray-200 mt-6 max-w-xl">
                 Explore breathtaking destinations around the world with our expertly curated tours.
                 From ancient wonders to tropical paradises, your dream vacation awaits.
             </p>
-            <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+            <div data-aos="fade-up" data-aos-duration="3000"
+                class="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
 
                 <button class="bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700">
                     Explore Tours
@@ -121,7 +127,7 @@
 
         <div class="max-w-7xl mx-auto bg-white rounded-2xl shadow-xl p-6 md:p-8">
 
-            <div class="grid grid-cols-1 md:grid-cols-5 gap-4 items-end">
+            <div data-aos="flip-up" data-aos-duration="1500" class="grid grid-cols-1 md:grid-cols-5 gap-4 items-end">
 
                 <div>
                     <label class="text-sm text-gray-600">Destination</label>
@@ -182,17 +188,21 @@
     <!-- DESTINATION SECTIONS  -->
     <section class="h-screen w-full" id="destiny">
         <div class="flex flex-col justify-center items-center max-w-7xl md-text-center mx-auto px-6 py-10 text-center">
-            <h5 class="bg-teal-100 rounded-full text-center text-teal-600 text-sm mb-4 px-4 py-2">Popular Destinations
+            <h5 data-aos="fade-up" data-aos-duration="1500"
+                class="bg-teal-100 rounded-full text-center text-teal-600 text-sm mb-4 px-4 py-2">
+                Popular Destinations
             </h5>
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Explore the World</h2>
-            <h3 class="text-gray-500 mt-4 max-w-2xl mx-auto text-sm ">From sun-soaked beaches to historic cities,
+            <h2 data-aos="fade-up" data-aos-duration="1500" class="text-3xl md:text-4xl font-bold text-gray-900">Explore
+                the World</h2>
+            <h3 data-aos="fade-up" data-aos-duration="1500" class="text-gray-500 mt-4 max-w-2xl mx-auto text-sm ">From
+                sun-soaked beaches to historic cities,
                 discover our most sought-after destinations.</h3>
         </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
                 <!-- CARD 1 -->
-                <div class="relative rounded-2xl overflow-hidden group">
+                <div data-aos="flip-down" data-aos-duration="3000" class="relative rounded-2xl overflow-hidden group">
                     <img src="./assets/10002.jpeg"
                         class="w-full h-[280px] sm:h-[320px] lg:h-[350px] object-cover transition duration-500 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
@@ -216,7 +226,7 @@
 
 
                 <!-- CARD 2 -->
-                <div class="relative rounded-2xl overflow-hidden group">
+                <div data-aos="flip-down" data-aos-duration="3000" class="relative rounded-2xl overflow-hidden group">
                     <img src="./assets/10003.jpeg"
                         class="w-full h-[280px] sm:h-[320px] lg:h-[350px] object-cover transition duration-500 group-hover:scale-110">
 
@@ -241,7 +251,7 @@
 
 
                 <!-- CARD 3 -->
-                <div class="relative rounded-2xl overflow-hidden group">
+                <div data-aos="flip-down" data-aos-duration="3000" class="relative rounded-2xl overflow-hidden group">
                     <img src="./assets/10004.jpeg"
                         class="w-full h-[280px] sm:h-[320px] lg:h-[350px] object-cover transition duration-500 group-hover:scale-110">
 
@@ -272,7 +282,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
 
-                <div class="relative rounded-2xl overflow-hidden group">
+                <div data-aos="flip-down" data-aos-duration="3000" class="relative rounded-2xl overflow-hidden group">
                     <img src="./assets/10005.jpeg"
                         class="w-full h-[280px] sm:h-[320px] lg:h-[350px] object-cover transition duration-500 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
@@ -296,7 +306,7 @@
 
 
 
-                <div class="relative rounded-2xl overflow-hidden group">
+                <div data-aos="flip-down" data-aos-duration="3000" class="relative rounded-2xl overflow-hidden group">
                     <img src="./assets/10006.jpeg"
                         class="w-full h-[280px] sm:h-[320px] lg:h-[350px] object-cover transition duration-500 group-hover:scale-110">
 
@@ -321,7 +331,7 @@
 
 
 
-                <div class="relative rounded-2xl overflow-hidden group">
+                <div data-aos="flip-up" data-aos-duration="3000" class="relative rounded-2xl overflow-hidden group">
                     <img src="./assets/10007.jpeg"
                         class="w-full h-[280px] sm:h-[320px] lg:h-[350px] object-cover transition duration-500 group-hover:scale-110">
 
@@ -351,7 +361,8 @@
 
             <div class="absolute inset-0 bg-teal-900/80"></div>
 
-            <div class="relative max-w-4xl mx-auto px-6 py-20 text-center text-white">
+            <div data-aos="zoom-out-up" data-aos-duration="3000"
+                class="relative max-w-4xl mx-auto px-6 py-20 text-center text-white">
 
 
                 <h2 class="text-3xl md:text-5xl font-bold leading-tight">
@@ -480,7 +491,8 @@
     </section>
 
     <!-- WHATSAPP BUTTON -->
-    <a href="https://wa.me/917559418276?text=Hello...I want to book a tour" target="_blank"
+    <a href="https://wa.me/917559418276?text=Hello...I want to book a tour" target="_blank" data-aos="fade-up"
+        data-aos-duration="500"
         class="fixed bottom-20 right-5 z-50 bg-green-500 hover:bg-green-600 text-white w-12 h-12 mb-5 flex items-center justify-center rounded-full shadow-lg transition duration-300">
 
         <i class="fa-brands fa-whatsapp text-2xl"></i>
@@ -488,12 +500,20 @@
     </a>
 
     <!-- back to top -->
-    <a href="#top"
+    <a href="#top" data-aos="fade-up" data-aos-duration="500"
         class="fixed bottom-5 right-5 z-50 bg-teal-600 hover:bg-teal-700 text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center transition hover:scale-110 animate-bounce">
 
         <i class="fa-solid fa-arrow-up"></i>
 
     </a>
+
+    <!-- aos  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
